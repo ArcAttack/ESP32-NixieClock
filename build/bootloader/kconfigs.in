@@ -1,0 +1,5 @@
+source "F:/OneDrive/Espresso/esp-idf-v4.2/components/efuse/Kconfig"
+source "F:/OneDrive/Espresso/esp-idf-v4.2/components/esp32/Kconfig"
+source "F:/OneDrive/Espresso/esp-idf-v4.2/components/esp_common/Kconfig"
+source "F:/OneDrive/Espresso/esp-idf-v4.2/components/log/Kconfig"
+source "F:/OneDrive/Espresso/esp-idf-v4.2/components/spi_flash/Kconfig"

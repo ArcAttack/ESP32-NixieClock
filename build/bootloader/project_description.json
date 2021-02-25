@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader/subproject",
+    "build_dir":          "F:/OneDrive/Espresso/NixieClock/build/bootloader",
+    "config_file":        "F:/OneDrive/Espresso/NixieClock/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "F:/OneDrive/Espresso/esp-idf-v4.2/components/efuse/Kconfig;F:/OneDrive/Espresso/esp-idf-v4.2/components/esp32/Kconfig;F:/OneDrive/Espresso/esp-idf-v4.2/components/esp_common/Kconfig;F:/OneDrive/Espresso/esp-idf-v4.2/components/log/Kconfig;F:/OneDrive/Espresso/esp-idf-v4.2/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader/Kconfig.projbuild;F:/OneDrive/Espresso/esp-idf-v4.2/components/esptool_py/Kconfig.projbuild;F:/OneDrive/Espresso/esp-idf-v4.2/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader", "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader_support", "F:/OneDrive/Espresso/esp-idf-v4.2/components/efuse", "F:/OneDrive/Espresso/esp-idf-v4.2/components/esp32", "F:/OneDrive/Espresso/esp-idf-v4.2/components/esp_common", "F:/OneDrive/Espresso/esp-idf-v4.2/components/esp_rom", "F:/OneDrive/Espresso/esp-idf-v4.2/components/esptool_py", "F:/OneDrive/Espresso/esp-idf-v4.2/components/log", "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader/subproject/main", "F:/OneDrive/Espresso/esp-idf-v4.2/components/bootloader/subproject/components/micro-ecc", "F:/OneDrive/Espresso/esp-idf-v4.2/components/partition_table", "F:/OneDrive/Espresso/esp-idf-v4.2/components/soc", "F:/OneDrive/Espresso/esp-idf-v4.2/components/spi_flash", "F:/OneDrive/Espresso/esp-idf-v4.2/components/xtensa", "" ]
+}
